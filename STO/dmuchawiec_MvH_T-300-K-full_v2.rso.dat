@@ -1,33 +1,3 @@
-[Header]
-TITLE,MPMS RSO Measurement
-BYAPP,MPMS Measurement,1.1,Summary
-FILEOPENTIME, 1698355527.984000 10/26/2023, 11:25:27 PM
-
-INFO, APPNAME, MPMS MultiVu Application, Revision 1.60,  Build 081
-
-INFO, NAME, STO-N11-12p5g-15a-600C-vac-old
-INFO, WEIGHT, 98.480
-INFO, AREA, 0.000
-INFO, LENGTH, 0.000
-INFO, SHAPE, 0
-INFO, COMMENT, 
-INFO, SEQUENCE FILE: MvsH-full_mod_MvT.seq
-
-
-INFO, BACKGROUND DATA FILE:, None
-
-
-STARTUPAXIS,X,4,LINEAR,AUTO,0.000000,0.000000
-STARTUPAXIS,Y1,5,LINEAR,AUTO,0.000000,0.000000
-
-
-STARTUPGROUP,Longitudinal
-FIELDGROUP,Longitudinal,1,2,3,4,5,6,7,8,9,10,11,19,20,21,22,23,35
-FIELDGROUP,Transverse,1,2,3,4,12,13,14,15,16,17,18,24,25,26,27,28,35
-
-PLOT_APPEARANCE,ALL,HORZ_GRID_ON,VERT_GRID_ON,MARKERS_AND_LINES
-
-[Data]
 Time,Comment,Field (Oe),Temperature (K),Long Moment (emu),Long Scan Std Dev,Long Offset (cm),Long Offset Std Dev,Long Algorithm,Long Reg Fit,Long Reg Factor,Trans Moment (emu),Trans Scan Std Dev,Trans Offset (cm),Trans Offset Std Dev,Trans Algorithm,Trans Reg Fit,Trans Reg Factor,Long Moment [w/o ABS] (emu),Long Scan Std Dev [w/o ABS],Long Offset [w/o ABS] (cm),Long Offset Std Dev [w/o ABS],Long Reg Fit [w/o ABS],Trans Moment [w/o ABS] (emu),Trans Scan Std Dev [w/o ABS],Trans Offset [w/o ABS] (cm),Trans Offset Std Dev [w/o ABS],Trans Reg Fit [w/o ABS],RSO Position (deg),Amplitude (cm),Frequency,Cycles to Average,Scans per Measurement,Delta Temp (K),Error,EC Comp. Running,Using ABS,
 1698355527.984,,0.000000e+000,3.000012e+002,9.010284e-007,3.389137e-008,6.223416e-002,2.849491e-002,3,7.250961e-001,1.825000e+000,,,,,,,,,,,,,,,,,,0,4.000000e+000,1.000000e+000,2,2,0.000000e+000,0,,0,
 1698355551.421,,5.047331e+001,3.000012e+002,4.894460e-006,1.436045e-007,1.271647e-001,1.083556e-002,3,9.276184e-001,1.825000e+000,,,,,,,,,,,,,,,,,,0,4.000000e+000,1.000000e+000,2,2,0.000000e+000,0,,0,

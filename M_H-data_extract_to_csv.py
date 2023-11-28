@@ -1,7 +1,7 @@
 import os
 import pandas as pd
-DIR = "dmuchawiec"
-INPUT = "dmuchawiec_MvH_T-300-K-full.rso"
+DIR = "STO"
+INPUT = "STO-N10-2g-15a-500C-vac_MvT_H-300_Oe-K-full_220119.rso"
 OUTPUT = ""
 COLS = [2, 3, 4, 6] # columns indexed from 0
 HEADERS = ["Field (Oe)", "Temperature (K)", "Long Moment (emu)", "Long Offset (cm)"]
