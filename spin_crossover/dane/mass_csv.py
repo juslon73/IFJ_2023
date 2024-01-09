@@ -2,8 +2,8 @@ import os
 import pandas as pd
 import re
 
-DIR = "Trt_TEOS — kopia/Medium TEOS"
-INPUT = "FeTrz_Trt_medium_FC_FH.rso"
+DIR = "AOT — kopia/Big AOT"
+INPUT = "FeTrz_XTvT_MCE_final.rso"
 OUTPUT = ""
 COLS = [2, 3, 4, 6] # columns indexed from 0
 HEADERS = ["Field (Oe)", "Temperature (K)", "Long Moment (emu)", "Long Offset (cm)"]
